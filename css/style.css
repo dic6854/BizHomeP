@@ -14,3 +14,29 @@ ul, ol {
 a {
     text-decoration: none;
 }
+
+/* 2단계 - header style 지정 */
+header {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+header div.inner {
+    width: 1180px;
+    height: 120px;
+    margin: 0px auto;
+    position: relative;
+}
+header div.inner h1 {
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
+}
+header div.inner h1 a {
+    font: bold 24px/1 "arial";
+    color: #444;
+}
+header div.inner ul.util {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
